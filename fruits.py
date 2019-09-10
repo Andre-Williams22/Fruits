@@ -8,4 +8,8 @@ def novowel(fruits, num):
             vowel.append(x)
         else:
             nvowel.append(x)
-            
+
+    print(vowel)
+    print(nvowel[0:num])
+
+print(novowel(fruits,5))
